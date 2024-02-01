@@ -6,12 +6,13 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FFEFD5;
 }
 
 .header{
     width: 100%;
     height: 90vh;
-    background-image: url("pics/header.jpg");
+    background-image: url("../img/header.jpg");
     color: #fff;
     background-position: center;
     background-size: cover;
@@ -22,8 +23,8 @@ body {
 
 .left-header{
    grid-column: 1/6;
-    /* background-color: rgba(179, 229, 252, 0.8); */
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(50,49,49,0.6);
+    /* background-color: rgba(0, 0, 0, 0.6); */
 }
 
 .container{
