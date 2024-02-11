@@ -120,3 +120,21 @@ body {
     height: 90px;
     clip-path: circle(50%);
 }
+
+.services{
+    display: flex;
+    justify-content: space-between;
+}
+
+.service{
+    
+}
+
+.service__img img{
+    width: 100%;
+    height: 100%;
+}
+
+.sevice__title{
+    font-size: 1rem;
+}
