@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Furniture</title>
 </head>
@@ -17,7 +19,7 @@
                         <li class="item"><a href="#">Home</a></li>
                         <li class="item"><a href="#">About</a></li>
                         <li class="item"><a href="#">Contact</a></li>
-                        <li class="item"><a href="#">Login</a></li>
+                        <li class="item"><a href="#">Products</a></li>
                     </ul>
                 </nav>
                 <div class="content">
@@ -41,19 +43,19 @@
     <section class="services">
         <div class="service">
             <img src="assets//img/icons/transportation.svg" alt="" class="service__img">
-            <h2 class="service__title">سرویس حمل و نقل</h2>
+            <h2 class="service__title">Transportation Service</h2>
         </div>
         <div class="service">
             <img src="assets//img/icons/garanti.svg" alt="" class="service__img">
-            <h2 class="service__title">3 سال گارانتی</h2>
+            <h2 class="service__title">Warranty</h2>
         </div>
         <div class="service">
             <img src="assets//img/icons/pay.svg" alt="" class="service__img">
-            <h2 class="service__title">پرداخت آسان</h2>
+            <h2 class="service__title">Easy Payment</h2>
         </div>
         <div class="service">
             <img src="assets//img/icons/new.svg" alt="" class="service__img">
-            <h2 class="service__title">جدیدترین مدل ها</h2>
+            <h2 class="service__title">Vew & Diverse</h2>
         </div>
     </section>
     <section class="slider">
@@ -88,13 +90,73 @@
             <p>Product Categories</p>
         </div>
         <div class="product__lines">
-            <div class="armchair-line">ok</div>
-            <div class="bofet-line">ok</div>
-            <div class="chair-line">ok</div>
+            <div class="container">
+                <div class="seating-line">
+                    <div class="seating">
+                        <a href="#" >
+                            <img src="assets/img/chair/1.jpg" alt="chair">
+                        </a>
+                        <p>seating...</p>
+                    </div>
+                    <div class="sofa"> 
+                        <a href="#">
+                            <img src="assets/img/sofa/2.jpg" alt="sofa">
+                        </a>
+                        <p>outdoor...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="buffet-line">
+                <div class="container buffet">
+                    <a href="#">
+                        <img src="assets/img/buffet/1.jpg" alt="">
+                    </a>
+                    <p>storage...</p>
+                </div>
+            </div>
+            <div class="table-line">
+                <div class="container tables">
+                    <div class="text__section">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, possimus.</div>
+                    <a href="#" class="table">
+                        <img src="assets/img/table/3.jpg" alt="">
+                    </a>
+                    <a href="#" class="chair">
+                        <img src="assets/img/chair/3.jpg" alt="">
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
-    <section class="visited">ok</section>
+    <section class="visited">
+        <div class="container">
+            <div class="visite__title"> the most visited</div>
+            <div class="visite__slider">
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper__wrapper">
+                    <!-- Slides -->
+                        <div class="swiper__slide"><img src="assets/img/visite/1.jpg" class="swiper-content__img" alt="swiper Image"></div>
+                        <div class="swiper__slide"><img src="assets/img/visite/2.jpg" class="swiper-content__img" alt="swiper Image"></div>
+                        <div class="swiper__slide"><img src="assets/img/visite/3.jpg" class="swiper-content__img" alt="swiper Image"></div>
+                        <div class="swiper__slide"><img src="assets/img/visite/4.jpg" class="swiper-content__img" alt="swiper Image"></div>
+                        <div class="swiper__slide"><img src="assets/img/visite/5.jpg" class="swiper-content__img" alt="swiper Image"></div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper__pagination"></div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="footer">footer</section>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 </html>
