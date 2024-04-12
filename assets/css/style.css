@@ -4,6 +4,8 @@
     --grey: #D2D2D2;
     --dark: #3B3735;
     --app-bg:#FFEFD5;
+    --footer_up: #353636;
+    --footer_down: #474747;
     --primary-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --primary-font-md: "Roboto Medium", Arial, Helvetica, sans-serif;
     --secondary-font: "Archivo Black", Arial, Helvetica, sans-serif;
@@ -19,6 +21,15 @@ html {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+a,
+a:hover{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
 }
 
 body {
@@ -245,6 +256,7 @@ body {
 .tables{
     display: flex;
     justify-content: space-between;
+    gap: 2rem;
 }
 
 .table img,
@@ -252,13 +264,41 @@ body {
     width: 100%;
 }
 
-.footer{
-    background-color: #353636;
-    color: #fff;
-    
+.visite{
+display: flex;
+flex-direction: column;
+margin-top: 5rem;
+}
+
+.visite__title{
+    width: 20%;
+    margin: 0 auto;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+.footer a{
+    color: var(--white);
 }
 .sub__footer{
+   display: flex;
+   flex-direction: column;
+   color: var(--white);
+}
+
+.up{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: var(--footer_up);
+}
+
+.footer__menu{
+    display: block;
+}
+
+.down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--footer_down);
 }
