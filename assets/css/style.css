@@ -255,4 +255,10 @@ body {
 .footer{
     background-color: #353636;
     color: #fff;
+    
+}
+.sub__footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
