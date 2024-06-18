@@ -1,20 +1,16 @@
-
-// swiper slide
-// const swiperOptions = {
-//     pagination: {
-//         el: '.swiper-pagination',
-//     },
-//     spaceBetween: 30,
-//     breakpoints: {
-//         768: {
-//             slidesPerView: 2
-//         },
-//         1200: {
-//             slidesPerView: 3
-//         }
-//     }
-// }
-// const swiper= new Swiper('.swiper', swiperOptions)
+$(document).ready(function() {
+ 
+  $("#owl-demo").owlCarousel({
+ 
+      autoPlay: 3000, //Set AutoPlay to 3 seconds
+ 
+      items : 4,
+      itemsDesktop : [1199,3],
+      itemsDesktopSmall : [979,3]
+ 
+  });
+ 
+});
 
 const swiper = new Swiper(".swiper", {
   // Optional parameters

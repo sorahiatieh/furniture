@@ -189,6 +189,14 @@ body {
     margin-top: 15rem;
     margin-bottom: 10rem;
 }
+#owl-demo .item{
+    margin: 3px;
+  }
+  #owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
 .swiper {
     width: 600px;
     height: 300px;

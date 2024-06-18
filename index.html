@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Furniture</title>
 </head>
@@ -59,30 +61,14 @@
         </div>
     </section>
     <section class="slider">
-        <div class="container">
-            <div class="swiper">
-                <!-- Additional required wrapper -->
-                <div class="swiper__wrapper">
-                  <!-- Slides -->
-                    <div class="swiper__slide"><img src="assets/img/banner/1.jpg" class="swiper-content__img" alt="swiper Image"></div>
-                    <div class="swiper__slide"><img src="assets/img/banner/2.jpg" class="swiper-content__img" alt="swiper Image"></div>
-                    <div class="swiper__slide"><img src="assets/img/banner/3.jpg" class="swiper-content__img" alt="swiper Image"></div>
-                    <div class="swiper__slide"><img src="assets/img/banner/4.jpg" class="swiper-content__img" alt="swiper Image"></div>
-                    <div class="swiper__slide"><img src="assets/img/banner/5.jpg" class="swiper-content__img" alt="swiper Image"></div>
-                    <div class="swiper__slide"><img src="assets/img/banner/6.jpg" class="swiper-content__img" alt="swiper Image"></div>
-                </div>
-                <!-- If we need pagination -->
-                <div class="swiper__pagination"></div>
-              
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-              
-                <!-- If we need scrollbar -->
-                <div class="swiper-scrollbar"></div>
-              </div>
-           
-        </div>
+        <div id="owl-demo" class="owl-carousel owl-theme">
+            <div class="item"><img src="assets/img/banner/1.jpg" alt="Owl Image"></div>
+            <div class="item"><img src="assets/img/banner/2.jpg" alt="Owl Image"></div>
+            <div class="item"><img src="assets/img/banner/3.jpg" alt="Owl Image"></div>
+            <div class="item"><img src="assets/img/banner/4.jpg"" alt="Owl Image"></div>
+            <div class="item"><img src="assets/img/banner/5.jpg" alt="Owl Image"></div>
+            <div class="item"><img src="assets/img/banner/6.jpg" alt="Owl Image"></div>
+          </div>
     </section>
     <section class="products">
         <div class="products__title">
@@ -188,8 +174,10 @@
             </div>
         </div>
     </section>
+    <script src="assets/js/jquery-3.0.0.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/owl.carousel.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 </html>
