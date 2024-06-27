@@ -281,16 +281,17 @@ margin-top: 5rem;
     font-size: 4rem;
     margin-bottom: 2rem;
 }
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+}
 .footer a{
     color: var(--white);
 }
-.sub__footer{
-   display: flex;
-   flex-direction: column;
-   color: var(--white);
-}
 
-.up{
+.top{
     display: flex;
     justify-content: space-around;
     align-items: center;
